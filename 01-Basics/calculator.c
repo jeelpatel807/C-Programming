@@ -3,14 +3,17 @@
 #include<conio.h>
 int main(){
 float num1,num2,add,sub,mul,div;
+  //input
 printf("\nEnter the first number: ");
 scanf("%f",&num1);
 printf("\nEnter the second number: ");
 scanf("%f",&num2);
+  //operations
 add = num1 + num2;
 sub = num1 - num2;
 mul = num1 * num2;
 div = num1 / num2;
+  //result
 printf("\nThe result of addition is: %.2f",add);
 printf("\nThe result of subtraction is: %.2f",sub);
 printf("\nThe result of multiplication is: %.2f",mul);

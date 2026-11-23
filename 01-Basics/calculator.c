@@ -9,10 +9,10 @@ float add;
 float sub;
 float mul;
 float div;
-//input of first number
+//input of first number from the user
 printf("\nEnter the first number: ");
 scanf("%f",&num1);
-//input of second number
+//input of second number from the user
 printf("\nEnter the second number: ");
 scanf("%f",&num2);
 //operations
@@ -20,7 +20,7 @@ add = num1 + num2;
 sub = num1 - num2;
 mul = num1 * num2;
 div = num1 / num2;
-//result
+//result of these two numbers
 printf("\nThe result of addition is: %.2f",add);
 printf("\nThe result of subtraction is: %.2f",sub);
 printf("\nThe result of multiplication is: %.2f",mul);

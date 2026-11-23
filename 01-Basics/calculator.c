@@ -1,6 +1,5 @@
 /* Write a C program to make a calculator which all arithmetic operations such as addition, subtraction, multiplication and division taking two numbers as input from user*/
 #include<stdio.h>
-#include<conio.h>
 int main(){
 //variable declaration
 float num1;

@@ -4,7 +4,6 @@
 int main(){
 //Declaration of three variables
 int a,b,c;
-clrscr();
 //Input of first number from the user
 printf("\nEnter the value for a: ");
 scanf("%d",&a);

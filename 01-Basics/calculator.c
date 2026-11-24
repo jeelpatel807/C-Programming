@@ -1,6 +1,7 @@
 /* Write a C program to make a calculator which all arithmetic operations such as addition, subtraction, multiplication and division taking two numbers as input from user*/
 #include<stdio.h>
 int main(){
+  
 //variable declaration
 float num1;
 float num2;
@@ -8,17 +9,21 @@ float add;
 float sub;
 float mul;
 float div;
+  
 //input of first number from the user
 printf("\nEnter the first number: ");
 scanf("%f",&num1);
+  
 //input of second number from the user
 printf("\nEnter the second number: ");
 scanf("%f",&num2);
+  
 //operations
 add = num1 + num2;
 sub = num1 - num2;
 mul = num1 * num2;
 div = num1 / num2;
+  
 //result of these two numbers
 printf("\nThe result of addition is: %.2f",add);
 printf("\nThe result of subtraction is: %.2f",sub);
